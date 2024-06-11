@@ -1,0 +1,15 @@
+.textarea {
+  font-size: var(--font-size-16);
+  line-height: 25px;
+  width: 100%;
+  background: transparent;
+  color: var(--color-wtf);
+  border: none;
+  outline: transparent;
+  resize: none;
+  min-height: 120px;
+}
+
+.form {
+  height: 100%;
+}

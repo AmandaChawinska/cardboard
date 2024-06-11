@@ -1,0 +1,22 @@
+:root {
+  --color-beige: #f7f2ec;
+  --color-draco: #494455;
+  --color-purple: #0d2b5a;
+  --color-whiterun: #ffffff;
+  --color-wtf: #657189;
+
+  --spacing-24: 24px;
+
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+
+  --line-height-17: 17px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--color-beige);
+  font-family: Open-Sans, Helvetica, sans-serif;
+}

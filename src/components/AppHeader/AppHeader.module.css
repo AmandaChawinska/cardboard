@@ -1,0 +1,23 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 292px;
+  padding: 56px 0 64px 0;
+}
+
+.description {
+  line-height: var(--line-height-17);
+  text-align: right;
+  color: var(--color-purple);
+  font-size: var(--font-size-14);
+}
+
+@media only screen and (max-width: 520px) {
+  .header {
+    grid-template-columns: 1fr;
+    padding: 36px 0 14px 0;
+    justify-items: center;
+  }
+  .description {
+    text-align: center;
+  }
+}
